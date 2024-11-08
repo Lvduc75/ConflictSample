@@ -3,15 +3,15 @@ import java.util.Scanner
 fun displayMenu() {
     println(
         """
-        Menu:
-        0. Load data from file
-        1. Add new vehicle
-        2. Update vehicle by ID
-        3. Delete vehicle by ID
-        4. Search vehicle
-        5. Show vehicle list
-        6. Save data to file
-        7. Quit
+        Menu board:
+        00. Load data from file.
+        01. Add new vehicle.
+        02. Update vehicle by ID.
+        03. Delete vehicle by ID.
+        04. Search vehicle.
+        05. Show vehicle list.
+        06. Save data to file.
+        07. Quit.
     """.trimIndent()
     )
 }
