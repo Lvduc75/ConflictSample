@@ -66,10 +66,7 @@ fun main() {
                 }
             }
 
-            6 -> {
-                print("Enter filename to save: ")
-                manager.saveVehiclesToFile(scanner.next())
-            }
+
 
             7 -> return
             else -> println("Invalid option. Please try again.")
