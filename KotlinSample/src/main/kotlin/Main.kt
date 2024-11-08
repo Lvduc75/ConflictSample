@@ -43,33 +43,6 @@ fun main() {
                 manager.deleteVehicleById(scanner.next())
             }
 
-            4 -> {
-                println("1. Search by name\n2. Search by ID")
-                when (scanner.nextInt()) {
-                    1 -> {
-                        print("Enter name to search: ")
-                        manager.searchByName(scanner.next())
-                    }
-
-                    2 -> {
-                        print("Enter ID to search: ")
-                        manager.searchById(scanner.next())
-                    }
-                }
-            }
-
-            5 -> {
-                println("1. Show all vehicles\n2. Show all vehicles (descending by price)")
-                when (scanner.nextInt()) {
-                    1 -> manager.showAllVehicles()
-                    2 -> manager.showVehiclesByDescendingPrice()
-                }
-            }
-
-            6 -> {
-                print("Enter filename to save: ")
-                manager.saveVehiclesToFile(scanner.next())
-            }
 
             7 -> return
             else -> println("Invalid option. Please try again.")
